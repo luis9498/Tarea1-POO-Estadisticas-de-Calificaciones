@@ -1,0 +1,43 @@
+# ARCHIVO DE PRUEBAS - Tarea 1: Estadísticas de Calificaciones
+# Formato: 8 calificaciones separadas por comas por línea
+# Rango válido: 0 a 100
+
+# === CASOS VÁLIDOS ===
+
+# Caso 1: Todos aprobados con notas altas
+85, 92, 78, 88, 95, 75, 82, 90
+
+# Caso 2: Mezcla de aprobados y reprobados
+55, 72, 68, 45, 80, 90, 60, 70
+
+# Caso 3: Todos reprobados
+30, 45, 55, 60, 40, 50, 35, 65
+
+# Caso 4: Notas extremas válidas (0 y 100)
+0, 100, 50, 75, 80, 60, 90, 70
+
+# Caso 5: Todos con la misma nota (promedio exacto)
+70, 70, 70, 70, 70, 70, 70, 70
+
+# Caso 6: Notas muy altas
+95, 98, 92, 100, 97, 89, 94, 96
+
+# Caso 7: Notas muy bajas pero válidas
+5, 10, 15, 20, 8, 12, 3, 18
+
+# Caso 8: Un solo aprobado
+55, 60, 65, 45, 50, 70, 40, 30
+
+# Caso 9: Notas con valores límite (0 y 100 mezclados)
+100, 0, 75, 80, 55, 90, 60, 70
+
+# Caso 10: Promedio exacto de 50
+40, 50, 60, 55, 45, 50, 55, 45
+
+# === CASOS INVÁLIDOS (para probar control de errores) ===
+
+# Caso 11: Calificación fuera de rango (mayor a 100)
+85, 92, 78, 110, 95, 75, 82, 90
+
+# Caso 12: Calificación negativa (menor a 0)
+85, -5, 78, 88, 95, 75, 82, 90
